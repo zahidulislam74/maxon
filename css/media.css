@@ -1,0 +1,605 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.99px) {
+    /*header css*/
+    .menu ul li a {
+        font-size: 15px;
+        font-weight: 500;
+        color: #323541;
+        padding: 10px 0px !important;
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    /*banner css*/
+    #banner {
+        padding-bottom: 40px;
+        background-color: #f7f7f7;
+    }
+   .b-content {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .y-text {
+        font-size: 16px;
+    }
+    .b-title {
+        font-size: 28px;
+        margin-top: 6px;
+    }
+    .b-desc {
+        padding: 16px 12px 20px 0px;
+    }
+     /*about css*/
+    #about {
+        padding: 40px 0px;
+    }
+    .a-bg {
+        margin: 0px;
+    }
+    .a-img {
+        position: absolute;
+        top: 50px;
+        padding: 0px 20px;
+    }
+    .a-h3 {
+        right: 11px;
+        bottom: 14px;
+        font-size: 14px;
+    }
+    .about-content {
+        margin: 25px 10px 0px 10px;
+    }
+    #about .b-title {
+        font-size: 25px;
+    }
+    #about .a-h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #112e41;
+        padding: 13px 0px;
+    }
+    #about .b-btn {
+        margin-top: 30px;
+    }
+    .b-btn {
+        padding: 16px 32px;    
+    }
+    /*feature css*/
+    #feature {
+        padding: 0 0 40px;
+    }
+    .f-item {
+        margin-top: 30px;
+        padding: 20px 15px;
+    }
+    .f-title {
+      font-size: 20px; 
+      margin-top: 5px;   
+    }
+    /*recent work*/
+    #recent-work{
+        padding-bottom: 40px;
+    }
+    .w-content {
+      max-width: 100%;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 10px;
+    }
+    .left{
+        margin-left: 10px;
+    }
+    .w-title {
+        font-size: 20px;
+        padding: 12px 0;
+    }
+    .w-desc {
+        padding-bottom: 10px;
+    }
+    /*fact css*/
+    #fact {
+      padding: 30px 0;
+    }
+    .fact-item {
+        padding: 10px;
+    }
+    .fact-desc {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .fact-desc span {
+      font-size: 35px;
+    }
+    .fact-item img {
+        margin-bottom: 10px;
+    }
+    /*testimonial css*/
+    #testimonial {
+      padding: 40px 0px;
+    }
+    .test-item {
+        max-width: 560px;
+        padding-left: 0px; 
+        padding-bottom: 10px;
+    }
+    /*team css*/
+    #team {
+      padding-bottom: 40px;
+
+    }
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+    /*blog css*/
+    #blog {
+      padding-bottom: 40px;
+    }
+    .post-content {
+        padding: 20px 15px;
+    }
+    .post-content h5 {
+        padding: 10px 0px;
+    }
+    .post-content h5 a {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    /*form css*/
+    .form-control {
+        margin-bottom: 20px;
+        height: 45px;
+    }
+    .p-t {
+        padding-top: 80px;
+    }
+    .contact-info{
+        margin-bottom: 15px;
+    }
+    .contact-info p{
+        margin-bottom: 0px;
+    }
+    /*partner css*/
+    #partner {
+        padding-bottom: 40px;
+    }
+    .middle{
+        text-align: center;
+    }
+    .p-t {
+        padding-top: 30px;
+    }
+    /*foter*/
+    footer {
+        padding: 40px 0 40px;
+        background-color: #162b45;
+    }
+    .single-footer p {
+        padding-top: 20px;
+        padding-right: 30px;
+        line-height: 25px;
+    }
+    .footer-title {
+        margin-bottom: 10px;
+    }
+    .single-footer p {
+        padding-top: 10px;
+        padding-right: 30px;
+        line-height: 20px;
+    }
+    .single-footer ul li a {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .copyright {
+        padding: 20px 0;
+        background-color: #10233a;
+    }
+
+
+
+
+
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /*header css*/
+    .menu ul li a {
+      font-size: 15px;
+      font-weight: 500;
+      color: #323541;
+      padding: 10px 0px !important;
+      text-transform: uppercase;
+      transition: 0.5s;
+    }
+    /*banner css*/
+    #banner {
+        padding-bottom: 40px;
+        background-color: #f7f7f7;
+    }
+   .b-content {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+    }
+    .b-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #112e41;
+      margin-top: 10px;
+    }
+    .b-desc {
+        padding: 25px 12px 25px 0px;
+    }
+     /*about css*/
+    #about {
+        padding: 50px 0px;
+    }
+    .a-bg {
+        margin: 60px 60px;
+        width: 70%;
+    }
+    .a-img {
+        position: absolute;
+        top: 50px;
+        padding: 0px 20px;
+    }
+    .a-h3 {
+        right: 30px;
+        bottom: 30px;
+        font-size: 24px;
+    }
+    .about-content {
+        margin: 50px 100px 0px 9px;
+    }
+    #about .a-h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #112e41;
+        padding: 20px 0px;
+    }
+    #about .b-btn {
+        margin-top: 30px;
+    }
+        /*feature css*/
+    #feature {
+        padding: 0 0 60px;
+    }
+    .f-item {
+        margin-top: 30px;
+        padding: 20px 15px;
+    }
+    .f-title {
+      font-size: 30px;    
+    }
+     /*recent work*/
+    .w-content {
+      max-width: 90%;
+      margin-right: 40px;
+      margin-bottom: 30px;
+    }
+    .w-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #112e41;
+        padding: 18px 0;
+    }
+    .w-desc {
+        padding-bottom: 10px;
+    }
+    /*fact css*/
+    #fact {
+      padding: 60px 0;
+    }
+    .fact-desc {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .fact-desc span {
+      font-size: 40px;
+    }
+        /*testimonial css*/
+    #testimonial {
+      padding: 60px 0px;
+    }
+    /*team css*/
+    #team {
+      padding-bottom: 60px;
+
+    }
+    .mt-5 {
+        margin-top: 2rem !important;
+    }
+    /*blog css*/
+    #blog {
+      padding-bottom: 60px;
+    }
+    /*form css*/
+    .form-control {
+        margin-bottom: 20px;
+        height: 45px;
+    }
+    .p-t {
+        padding-top: 80px;
+    }
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /*header css*/
+    .menu ul li a {
+      font-size: 15px;
+      font-weight: 500;
+      color: #323541;
+      padding: 10px 0px !important;
+      text-transform: uppercase;
+      transition: 0.5s;
+    }
+   /*banner css*/
+   #banner {
+        padding-bottom: 60px;
+        background-color: #f7f7f7;
+    }
+   .b-content {
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .b-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: #112e41;
+      margin-top: 10px;
+    }
+    .b-desc {
+      padding: 20px 90px 30px 0px;
+    }
+    /*about css*/
+    #about {
+        padding: 50px 0px;
+    }
+    .a-bg {
+        margin: 80px;
+    }
+    .a-img {
+        position: absolute;
+        top: 50px;
+        padding: 0px 20px;
+    }
+    .a-h3{
+        position: absolute; 
+        font-family: 'Poppins', sans-serif; 
+        font-size: 30px;
+        font-weight: 700;
+        color: #233646;
+        right: 20px;
+        bottom: 65px;
+    }
+    .about-content {
+        margin: 0px 70px 0px 9px;
+    }
+    #about .a-h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #112e41;
+        padding: 20px 0px;
+    }
+    #about .b-btn {
+        margin-top: 30px;
+    }
+    /*feature css*/
+    #feature {
+        padding: 0 0 60px;
+    }
+    .f-item {
+      margin-top: 30px;
+    }
+    .f-title {
+      font-size: 30px;    
+    }
+    /*recent work*/
+    .w-content {
+      max-width: 90%;
+      margin-right: 40px;
+      margin-bottom: 30px;
+    }
+    .w-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #112e41;
+        padding: 18px 0;
+    }
+    .w-desc {
+        padding-bottom: 10px;
+    }
+    /*fact css*/
+    #fact {
+      padding: 60px 0;
+    }
+    .fact-desc {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .fact-desc span {
+      font-size: 40px;
+    }
+    /*testimonial css*/
+    #testimonial {
+      padding: 60px 0px;
+    }
+    /*team css*/
+    #team {
+      padding-bottom: 60px;
+    }
+    /*blog css*/
+    #blog {
+      padding-bottom: 60px;
+    }
+    /*form css*/
+    .form-control {
+        margin-bottom: 20px;
+        height: 45px;
+    }
+    .p-t {
+        padding-top: 80px;
+    }
+    /*footer css*/
+    footer {
+      padding: 60px;
+      background-color: #162b45;
+    }
+    .contact-info p {
+        padding-bottom: 0px;
+    }
+
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /*banner css*/
+    #banner{
+        padding-bottom: 30px;
+
+    }
+    .b-title{
+        font-size: 50px;
+    }
+    .b-desc{
+        padding: 30px 0px;
+    }
+    /*about css*/
+    #about {
+        padding: 60px 0px;
+    }
+    .a-bg {
+        margin: 64px;
+    }
+    .about-img .a-bg{
+        width: 80%;
+    }
+    .a-h3 {
+        right: -17px;
+    }
+    .about-content {
+        margin: 60px 12px 0px 50px;
+    }
+    #about .a-h4 {
+        padding: 20px 0px;
+    }
+    #about .b-btn {
+        margin-top: 30px;
+    }
+    .a-h3 {
+        font-size: 24px;
+    }
+    #about .b-title {
+        font-size: 30px;
+    }
+    /*feature css*/
+    #feature {
+        padding: 0 0 80px;
+    }
+    .f-item {
+        padding: 15px 8px;
+        margin-top: 32px;
+    }
+    .f-h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .test-desc {
+        padding: 18px 0px;
+    }
+    /*recent work css*/
+    .w-title {
+        font-size: 28px;
+        padding: 15px 0;
+    }
+    .w-desc {
+        padding-bottom: 7px;
+    }
+    /*testimonial css*/
+    #testimonial {
+        padding: 80px 0px;
+    }
+    /*team css*/
+    .team-member p {
+        padding: 5px 0px 10px;
+    }
+    /*blog css*/
+    .post-content {
+        padding: 20px 20px;
+    }
+    .post-content h5 {
+        padding: 12px 0px;
+    }
+    .post-content h5 a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    /*form css*/
+    .form-control {
+        margin-bottom: 20px;
+        height: 50px;
+    }
+    /*footer css*/
+    footer {
+        padding: 80px 0 60px;
+    }
+    .single-footer p {
+        padding-right: 0px;
+        line-height: 30px;
+    }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    /*about css*/
+    #about {
+        padding: 80px 0px;
+    }
+    .a-bg {
+        margin: 64px;
+    }
+    .about-img .a-bg{
+        width: 80%;
+    }
+    .a-h3 {
+        right: -17px;
+    }
+    .about-content {
+        margin: 80px 60px 0px 50px;
+    }
+    #about .a-h4 {
+        padding: 20px 0px;
+    }
+    #about .b-btn {
+        margin-top: 30px;
+    }
+    /*feature css*/
+    .f-h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .f-item {
+        padding: 30px 22px;
+        margin-top: 60px;
+    }
+    .test-desc {
+        padding: 18px 0px;
+    }
+}
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+     
+} 
